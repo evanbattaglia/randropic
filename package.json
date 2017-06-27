@@ -1,0 +1,12 @@
+{
+  "name": "randropic",
+  "version": "0.0.1",
+  "description": "Set a random picture from your dropbox as your wallpaper",
+  "dependencies": {
+    "co": "^4.6.0",
+    "dropbox": "^2.5.4"
+  },
+  "devDependencies": {},
+  "author": "Evan Battaglia",
+  "license": "ISC"
+}
