@@ -1,4 +1,4 @@
-module.exports = new reqiure('dropbox')({
+module.exports = new (require('dropbox'))({
   accessToken: 'SECRETACCESSTOKEN'
 });
 
