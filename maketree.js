@@ -1,5 +1,4 @@
 const db = require('./dropboxconfig.js');
-const flatten = list => list.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
 
 function *allfiles(path, array=[]) {
   const listing = yield db.filesListFolder({ path });
